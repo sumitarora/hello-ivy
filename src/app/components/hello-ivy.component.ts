@@ -1,7 +1,7 @@
 import * as core from '@angular/core';
-import { HigherOrderComponent } from './higher-order.component';
+// import { HigherOrderComponent } from './higher-order.component';
 
-@HigherOrderComponent()
+// @HigherOrderComponent()
 export class HelloIvy {
   static ngComponentDef = core.ɵɵdefineComponent({
     type: HelloIvy,
@@ -30,7 +30,7 @@ export class HelloIvy {
     },
   });
 
-  title = 'Hello from Ivy';
+  title = 'Hello from Ivy There';
 
   changeTitle() {
     this.title = 'New Title';

@@ -18,7 +18,7 @@ export class AppComponent implements core.OnInit {
 
     import('./components/dynamic.component').then(c => {
       this.dynamicCmp = core.ɵrenderComponent(c.DynamicComponent, {
-        host: 'dynamic-host',
+        host: 'dynamic-hosts',
         injector: this.injector,
         hostFeatures: [core.ɵLifecycleHooksFeature],
       });
